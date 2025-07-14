@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://Nilaksh-Aggarwal.github.io/portfolio",
+  "homepage": "https://nilaksh-aggarwal.github.io/portfolio",
   "scripts": {
     "dev": "vite --host",
     "build": "tsc && vite build",
