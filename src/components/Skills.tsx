@@ -24,7 +24,7 @@ const Skills: React.FC = () => {
       skills: [
         { name: 'React.js', level: 85, color: 'bg-cyan-500' },
         { name: 'React Native', level: 80, color: 'bg-blue-500' },
-        { name: 'Next.js', level: 75, color: 'bg-gray-700' },
+        { name: 'Next.js', level: 75, color: 'bg-orange-500' },
         { name: 'JavaScript', level: 90, color: 'bg-yellow-500' },
         { name: 'TypeScript', level: 70, color: 'bg-blue-600' },
       ]

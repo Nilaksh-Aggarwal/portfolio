@@ -62,7 +62,7 @@ const Navbar: React.FC = () => {
               }}
               className="text-2xl font-bold gradient-text"
             >
-              Nilaksh
+              Nilaksh Aggarwal
             </a>
           </motion.div>
 

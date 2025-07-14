@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
@@ -15,16 +15,7 @@ import ScrollToTop from './components/ScrollToTop';
 import { ThemeProvider } from './contexts/ThemeContext';
 
 const App: React.FC = () => {
-  const [isLoading, setIsLoading] = useState(true);
-
-  useEffect(() => {
-    // Simulate loading time
-    const timer = setTimeout(() => {
-      setIsLoading(false);
-    }, 2000);
-
-    return () => clearTimeout(timer);
-  }, []);
+ // const [isLoading, setIsLoading] = useState(false);
 
   return (
     <ThemeProvider>
@@ -32,8 +23,7 @@ const App: React.FC = () => {
         <ParticleBackground />
         
         <AnimatePresence mode="wait">
-          {!isLoading && (
-            <motion.div
+          <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
@@ -55,7 +45,6 @@ const App: React.FC = () => {
               <Footer />
               <ScrollToTop />
             </motion.div>
-          )}
         </AnimatePresence>
       </div>
     </ThemeProvider>
