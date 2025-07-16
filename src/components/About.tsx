@@ -14,7 +14,7 @@ const About: React.FC = () => {
       icon: <Code className="w-8 h-8" />,
       number: '2+',
       label: 'Years Experience',
-      description: 'Professional web development'
+      description: 'Professional software development'
     },
     {
       icon: <Users className="w-8 h-8" />,

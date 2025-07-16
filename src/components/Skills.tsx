@@ -168,6 +168,10 @@ const Skills: React.FC = () => {
               'Bandwidth API',
               'Authorize.net',
               'GoHighLevel',
+              'Inflatable Office',
+              'Twilio',
+              'Infobip',
+              'Stripe',
               'Cross-platform Development',
               'Performance Optimization'
             ].map((tech, index) => (
