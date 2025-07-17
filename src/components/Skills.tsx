@@ -12,31 +12,31 @@ const Skills: React.FC = () => {
     {
       title: 'Backend Technologies',
       skills: [
-        { name: '.NET Core', level: 90, color: 'bg-purple-500' },
-        { name: 'C#', level: 85, color: 'bg-blue-500' },
-        { name: 'MVC', level: 80, color: 'bg-green-500' },
-        { name: 'Entity Framework', level: 85, color: 'bg-indigo-500' },
-        { name: 'Dapper', level: 75, color: 'bg-yellow-500' },
+        { name: '.NET Core', level: 90, color: 'bg-green-500' },
+        { name: 'C#', level: 85, color: 'bg-yellow-400' },
+        { name: 'MVC', level: 80, color: 'bg-yellow-400' },
+        { name: 'Entity Framework', level: 85, color: 'bg-yellow-400' },
+        { name: 'Dapper', level: 75, color: 'bg-yellow-400' },
       ]
     },
     {
       title: 'Frontend Technologies',
       skills: [
-        { name: 'React.js', level: 85, color: 'bg-cyan-500' },
-        { name: 'React Native', level: 80, color: 'bg-blue-500' },
-        { name: 'Next.js', level: 75, color: 'bg-orange-500' },
-        { name: 'JavaScript', level: 90, color: 'bg-yellow-500' },
-        { name: 'TypeScript', level: 70, color: 'bg-blue-600' },
+        { name: 'React.js', level: 85, color: 'bg-yellow-400' },
+        { name: 'React Native', level: 80, color: 'bg-yellow-400' },
+        { name: 'Next.js', level: 75, color: 'bg-yellow-400' },
+        { name: 'JavaScript', level: 90, color: 'bg-green-500' },
+        { name: 'TypeScript', level: 70, color: 'bg-orange-500' },
       ]
     },
     {
       title: 'Database & Tools',
       skills: [
-        { name: 'SQL', level: 85, color: 'bg-orange-500' },
-        { name: 'Git', level: 90, color: 'bg-red-500' },
-        { name: 'Visual Studio', level: 85, color: 'bg-purple-600' },
-        { name: 'VS Code', level: 90, color: 'bg-blue-500' },
-        { name: 'CI/CD', level: 75, color: 'bg-green-600' },
+        { name: 'SQL', level: 85, color: 'bg-yellow-400' },
+        { name: 'Git', level: 90, color: 'bg-green-500' },
+        { name: 'Visual Studio', level: 85, color: 'bg-yellow-400' },
+        { name: 'VS Code', level: 90, color: 'bg-green-500' },
+        { name: 'CI/CD', level: 75, color: 'bg-yellow-400' },
       ]
     }
   ];
